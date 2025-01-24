@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class ASCIIArt {
-    static char[] charArray = { ' ', '.', ',', ':', ';', '+', '*', '?', '%', 'S', '#', '@' };;
+
+    static char[] charArray = { ' ', '.', ',', ':', ';', '+', '*', '?', '%', 'S', '#', '@' };     //Can change this
     private static void createASCII(String url){
         try {
             // Create a BufferedImage from the image file at the specified path
